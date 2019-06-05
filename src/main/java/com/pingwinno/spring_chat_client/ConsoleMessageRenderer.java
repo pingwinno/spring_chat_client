@@ -13,8 +13,6 @@ public class ConsoleMessageRenderer implements MessageHandler {
 
     @Override
     public void handle(MessageModel messageModel) {
-        System.out.println("sfjghsj");
-
         System.out.println(messageModel.getTime().toString() + " " + messageModel.getUser() + "  " +messageModel.getMessage());
     }
 }
